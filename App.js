@@ -16,7 +16,7 @@ class App extends Component {
         status: false
       })
     this.procesar = this.procesar.bind(this);
-    this.cambioCliente = this.cambioCliente.bind(this);+
+    this.cambioCliente = this.cambioCliente.bind(this);
     this.cambioOrigen = this.cambioOrigen.bind(this);    
     this.cambioDestino = this.cambioDestino.bind(this);
     this.cambioTarifa = this.cambioTarifa.bind(this);
@@ -122,4 +122,4 @@ cambioRuta(e)  {
   }    
 }
 
-export default App
+export default App;
